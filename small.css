@@ -56,8 +56,9 @@
         height: 30px;
         width: 30px;
     }
-    .logo h1 {
-        font-size: 1em;
+    .select-div div {
+        width: 70%;
+        height: auto;
     }
     .members {
         width: 98%;
