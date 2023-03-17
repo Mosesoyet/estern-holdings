@@ -157,6 +157,7 @@ footer {
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 .image {
     width: 100%;
