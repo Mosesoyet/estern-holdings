@@ -25,14 +25,38 @@
         flex-direction: column;
     }
     .members {
-        width: 98%;
+        width: 96%;
         flex-direction: column;
     }
     .select-div div+div {
         margin-top: 10px;
     }
+    #logo-img {
+        width: 45px;
+        height: 45px;
+    }
+    .logo h1 {
+        font-size: 1.3em;
+    }
 }
 
 @media screen and (max-width: 480px) {
-    
+    #logo-img {
+        height: 30px;
+        width: 30px;
+    }
+    .logo h1 {
+        font-size: 1em;
+    }
+    .members {
+        width: 98%;
+    }
+    .member {
+        width: 99%;
+        height: auto;
+    }
+    .image {
+        width: 100%;
+    }
+
 }
