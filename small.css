@@ -38,6 +38,15 @@
     .logo h1 {
         font-size: 1.3em;
     }
+    .member {
+        width: 300px;
+        height: auto;
+        margin-top: 10px;
+    }
+    .image {
+        width: 100%;
+        height: auto;
+    }
 }
 
 @media screen and (max-width: 480px) {
