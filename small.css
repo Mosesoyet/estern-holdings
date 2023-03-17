@@ -68,5 +68,9 @@
     .image {
         width: 80%;
     }
+    .image img {
+        width: 100%;
+        height: auto;
+    }
 
 }
