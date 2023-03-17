@@ -29,6 +29,14 @@
         flex-direction: column;
     }
     .select-div div+div {
-        margin-top: 10px;
+        margin-top: 15px;
     }
+    .member {
+        margin-top: 15px;
+        width: 95%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    
 }
