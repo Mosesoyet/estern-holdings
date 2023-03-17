@@ -162,6 +162,7 @@ footer {
 .image {
     width: 100%;
     height: auto;
+    margin: 0 auto;
 }
 .image img {
     width: 100%;
