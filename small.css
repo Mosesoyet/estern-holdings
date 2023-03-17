@@ -39,13 +39,15 @@
         font-size: 1.3em;
     }
     .member {
-        width: 300px;
+        width: 70;
         height: auto;
-        margin-top: 10px;
     }
     .image {
         width: 100%;
         height: auto;
+    }
+    .member+.member {
+        border-top: 10px;
     }
 }
 
