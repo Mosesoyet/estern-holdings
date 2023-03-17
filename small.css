@@ -27,6 +27,7 @@
     .members {
         width: 96%;
         flex-direction: column;
+        justify-content: center;
     }
     .select-div div+div {
         margin-top: 10px;
@@ -38,10 +39,10 @@
     .logo h1 {
         font-size: 1.3em;
     }
+    
     .member {
         width: 400px;
         height: auto;
-        margin-top: 10px;
     }
     .image {
         width: 100%;
