@@ -1,0 +1,37 @@
+[ 
+   {
+        "sys": {"id": "1"},
+        "firstname": "Moses",
+        "lastname": "Oyet",
+        "contact": {"email":"trickmaxillar@gmail.com", "tel": "0925940764/0980442504"},
+        "image": "images/members/trick.jpg"
+    },
+    {
+        "sys": {"id": "2"},
+        "firstname": "Stephen",
+        "lastname": "Omal",
+        "contact": {"email":"", "tel": "0927854807/0980386944"},
+        "image": "images/members/stevo.jpg"
+    },
+    {
+        "sys": {"id": "3"},
+        "firstname": "Denis",
+        "lastname": "Onen",
+        "contact": {"email":"daluoprince07@gmail.com", "tel": "0926007474/0980360438"},
+        "image": "images/members/deno.jpg"
+    },
+    {
+        "sys": {"id": "4"},
+        "firstname": "Joseph",
+        "lastname": "Justin",
+        "contact": {"email":"josephjustintaban@gmail.com", "tel": "0922985558/0980361386"},
+        "image": "images/members/lingken.jpg"
+    },
+    {
+        "sys": {"id": "5"},
+        "firstname": "Gilbert",
+        "lastname": "Otema",
+        "contact": {"email":"gilbertotema@fb.com", "tel": ""},
+        "image": "images/members/gilbert.jpg"
+    }
+]

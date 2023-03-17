@@ -1,0 +1,169 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    background: url('images/members/africa.jpg') fixed no-repeat center center/cover;
+    z-index: -11;
+}
+.wrapper {
+    width: 100%;
+    height: auto;
+    background-color: rgb(255, 255, 255);
+    opacity: 0.95;
+    z-index: -5;
+}
+.empty {
+    width: 100%;
+    height: calc(100vh - 90vh);
+}
+
+ul, li {
+    list-style: none;
+}
+p {
+    font-size: 18px;
+    padding: 3px;
+    margin-left: 10px;
+    text-align: center;
+}
+header {
+    width: 100%;
+    height: calc(100vh - 90vh);
+    background-color: rgb(192, 192, 192);
+    border: 1px solid rgb(78, 78, 78);
+    border-radius: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+.burger {
+    height: 28px;
+    width: 32px;
+    display: none;
+}
+.bug {
+    height: 4px;
+    background-color: black;
+    margin-top: 4px;
+    width: 100%;
+}
+.logo {
+    width: fit-content;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logo h1{
+    color: blue;
+}
+#logo-img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+#hh2, #hh3{
+    text-align: center;
+    margin: 5px;
+}
+
+.instructions {
+    width: 500px;
+    height: auto;
+    border: 1px solid rgb(224, 224, 224);
+    margin: 5px auto;
+}
+.instructions li {
+    width: 100%;
+    font-size: 18px;
+}
+.instructions li+li {
+    padding: 3px;
+}
+.select-div {
+    width: 90%;
+    height: auto;
+    margin: 10px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1;
+}
+.select-div div {
+    width: 200px;
+    height: 200px;
+    border: 1px solid gray;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s linear;
+}
+.select-div div:hover {
+    opacity: 0.7;
+    transition: 0.3s linear;
+}
+.select-div div h1 {
+    display: none;
+}
+.div1 {
+    background-color: blue;
+}
+.div2 {
+    background-color: blueviolet;
+}
+.div3 {
+    background-color: yellow;
+}
+.div4 {
+    background-color: green;
+}
+.div5 {
+    background-color: rgb(2, 2, 2);
+}
+footer {
+    width: 100%;
+    background-color: rgb(192, 192, 192);
+    height: 30px;
+    border: 1px solid white;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.members {
+    width: 90%;
+    height: auto;
+    margin: 10px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1;
+}
+
+.member {
+    width: 200px;
+    height: 350px;
+    border: 1px solid rgb(224, 221, 221);
+    display:  flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.image {
+    width: 100%;
+    height: auto;
+}
+.image img {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
