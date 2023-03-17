@@ -29,7 +29,7 @@
         flex-direction: column;
     }
     .select-div div+div {
-        margin-top: 15px;
+        margin-top: 10px;
     }
 }
 
