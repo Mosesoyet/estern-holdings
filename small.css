@@ -39,8 +39,9 @@
         font-size: 1.3em;
     }
     .member {
-        width: 70%;
+        width: 400px;
         height: auto;
+        margin-top: 10px;
     }
     .image {
         width: 100%;
