@@ -40,15 +40,16 @@ const div4 = document.querySelector(".div4");
 const div5 = document.querySelector(".div5");
 
 const h1 = document.querySelector("#h1");
-const h2 = document.querySelector("#h1");
-const h3 = document.querySelector("#h1");
-const h4 = document.querySelector("#h1");
-const h5 = document.querySelector("#h1");
+const h2 = document.querySelector("#h2");
+const h3 = document.querySelector("#h3");
+const h4 = document.querySelector("#h4");
+const h5 = document.querySelector("#h5");
 
 div1.addEventListener("click", () => {
+    div1.style.background = "white"
+    h1.style.display = "block"
     setTimeout(() => {
-        div1.style.background = "white"
-        h1.style.display = "block"
+        div1.remove()
     }, 5000)
 })
 
@@ -80,7 +81,7 @@ div4.addEventListener("click", () => {
 div5.addEventListener("click", () => {
     div5.style.background = "white";
     h5.style.display = "block";
-    
+
     setTimeout(() => {
         div5.remove()
     }, 5000)
