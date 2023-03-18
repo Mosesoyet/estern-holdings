@@ -39,32 +39,49 @@ const div3 = document.querySelector(".div3");
 const div4 = document.querySelector(".div4");
 const div5 = document.querySelector(".div5");
 
+const h1 = document.querySelector("#h1");
+const h2 = document.querySelector("#h1");
+const h3 = document.querySelector("#h1");
+const h4 = document.querySelector("#h1");
+const h5 = document.querySelector("#h1");
+
 div1.addEventListener("click", () => {
     setTimeout(() => {
-        alert("No cheating!, wait for the meeting time!!");
-    }, 500)
+        div1.style.background = "white"
+        h1.style.display = "block"
+    }, 5000)
 })
 
 div2.addEventListener("click", () => {
+    div2.style.background = "white"
+    h2.style.display = "block"
+
     setTimeout(() => {
-        alert("No cheating!, wait for the meeting time!!");
-    }, 500)
+        div2.remove()
+    }, 5000)
 })
 
 div3.addEventListener("click", () => {
+    div3.style.background = "white";
+    h3.style.display = "block"
     setTimeout(() => {
-        alert("No cheating!, wait for the meeting time!!");
-    }, 500)
+        div3.remove()
+    }, 5000)
 })
 
 div4.addEventListener("click", () => {
+    div4.style.background = "white";
+    h4.style.display = "block"
     setTimeout(() => {
-        alert("No cheating!, wait for the meeting time!!");
-    }, 500)
+        div4.remove()
+    }, 5000)
 })
 
 div5.addEventListener("click", () => {
+    div5.style.background = "white";
+    h5.style.display = "block";
+    
     setTimeout(() => {
-        alert("No cheating!, wait for the meeting time!!");
-    }, 500)
+        div5.remove()
+    }, 5000)
 })
