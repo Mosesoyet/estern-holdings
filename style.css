@@ -73,10 +73,19 @@ header {
     text-align: center;
     margin: 5px;
 }
+#hh3 {
+    color: white;
+    font-size: 1.5em;
+}
+#pp {
+    background-color: rgb(231, 229, 229);
+    margin-right: 5px;
+}
 
 .instructions {
     width: 500px;
     height: auto;
+    background-color: rgb(230, 230, 230);
     border: 1px solid rgb(224, 224, 224);
     margin: 5px auto;
 }
@@ -90,6 +99,7 @@ header {
 .select-div {
     width: 90%;
     height: auto;
+    background-color: rgb(218, 218, 218);
     margin: 10px auto;
     display: flex;
     align-items: center;
@@ -99,12 +109,14 @@ header {
 .select-div div {
     width: 200px;
     height: 200px;
-    border: 1px solid gray;
+    border: 1px solid rgb(201, 201, 201);
     border-radius: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
     transition: 0.3s linear;
+    cursor: pointer;
+    z-index: 5;
 }
 .select-div div:hover {
     opacity: 0.7;
@@ -162,8 +174,48 @@ footer {
 .image {
     width: 100%;
     height: auto;
+    margin: 5px auto;
 }
 .image img {
     width: 100%;
     height: auto;
+}
+
+.test{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: red;
+    margin: 10px auto;
+    cursor: pointer;
+}
+
+#test {
+    font-size: 2em;
+    color: rgb(3, 3, 56);
+    display: none;
+}
+
+.test1{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(185, 11, 142);
+    margin: 10px auto;
+    cursor: pointer;
+}
+
+.test2 {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(18, 114, 114);
+    margin: 10px auto;
+    cursor: pointer;
 }

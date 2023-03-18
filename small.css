@@ -41,11 +41,11 @@
     }
     
     .member {
-        width: 400px;
+        width: 98%;
         height: auto;
     }
     .image {
-        width: 100%;
+        width: 80%;
         height: auto;
     }
     .member+.member {
@@ -58,15 +58,4 @@
         height: 30px;
         width: 30px;
     }
-    .members {
-        width: 98%;
-    }
-    .member {
-        width: 99%;
-        height: auto;
-    }
-    .image {
-        width: 80%;
-    }
-
 }

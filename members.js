@@ -39,8 +39,32 @@ const div3 = document.querySelector(".div3");
 const div4 = document.querySelector(".div4");
 const div5 = document.querySelector(".div5");
 
-
-
 div1.addEventListener("click", () => {
-    alert("No cheating!!")
-});
+    setTimeout(() => {
+        alert("No cheating!, wait for the meeting time!!");
+    }, 500)
+})
+
+div2.addEventListener("click", () => {
+    setTimeout(() => {
+        alert("No cheating!, wait for the meeting time!!");
+    }, 500)
+})
+
+div3.addEventListener("click", () => {
+    setTimeout(() => {
+        alert("No cheating!, wait for the meeting time!!");
+    }, 500)
+})
+
+div4.addEventListener("click", () => {
+    setTimeout(() => {
+        alert("No cheating!, wait for the meeting time!!");
+    }, 500)
+})
+
+div5.addEventListener("click", () => {
+    setTimeout(() => {
+        alert("No cheating!, wait for the meeting time!!");
+    }, 500)
+})
