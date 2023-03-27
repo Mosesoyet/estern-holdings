@@ -22,6 +22,8 @@ http.onload = function(){
                 <h3 class="name">${item.firstname} ${item.lastname}</h3>
                 <h4 class="email">${item.contact.email}</h4>
                 <h4 class="tel">${item.contact.tel}</h4>
+                <h4 class="payment">Payment Type: ${item.payment}</h4>
+                <h4 class="position">Position: `{item.position}`</h4>
             </div>
             `;
         }
