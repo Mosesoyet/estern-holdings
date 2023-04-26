@@ -12,25 +12,53 @@ http.onload = function(){
         let members = JSON.parse(this.responseText);
 
         let output = '';
-
-        for(let item of members) {
+        let memberNow = '';
+        for(item of members) {
             output += `
-            <div class="member">
+            <div data-aos="zoom-in" 
+            data-aos-easing="linear" data-aos-duration="1000" 
+            class="member">
                 <div class="image">
                     <img src="${item.image}" alt="" >
                 </div>
                 <h3 class="name">${item.firstname} ${item.lastname}</h3>
-                <h4 class="email">${item.contact.email}</h4>
+                <h4 class="email"><a href="mailto:${item.contact.email}">${item.contact.email}</a></h4>
                 <h4 class="tel">${item.contact.tel}</h4>
-                <h4 class="payment">Payment Type: ${item.payment}</h4>
-                <h4 class="position">Position: ${item.position}</h4>
+                <h4 class="payment">Payment Type: ${item.Payment}</h4>
+                <h4 class="position">Position: ${item.Position}</h4>
             </div>
             `;
+            if(item.Position === '2') {
+                memberNow += `
+                <div class="member-now">
+                   <!--<div class="member-image">
+                    <img src="${item.image}" alt="${item.firstname} photo">
+                   </div>-->
+                   <div class="some-detail" data-aos="fade-right" data-aos-offset="300"
+                   data-aos-easing="ease-in-sine" data-aos-duration="1500">
+                       <h2>Know who you will contribute to this month:</h2>
+                       <p>
+                           <b>NOTE</b>: Please keep time and all payment should be made on time, we accepts late 
+                           payments till the 10<sup>th</sup> date of a month.
+                       </p>
+                       <p> In case of any issue that could result to late payment, <i>Please inform the person concern</i></p>
+                   </div>
+                   <div class="member-detail" data-aos="fade-left" data-aos-offset="300"
+                   data-aos-easing="ease-in-sine" data-aos-duration="1500">
+                       <h3 class="name">Full Name: ${item.firstname} ${item.lastname}</h3>
+                       <h4 class="email">Email: <a href="mailto:${item.contact.email}">${item.contact.email}</a></h4>
+                       <h4 class="tel">Contact: ${item.contact.tel}</h4>
+                       <h4 class="payment">Payment Type: ${item.Payment}</h4>
+                       <h4 class="position">Position: ${item.Position}</h4>
+                    </div>
+                </div>
+                `
+            }
         }
         document.querySelector(".members").innerHTML = output;
+        document.querySelector(".member-this-month").innerHTML = memberNow;
     }
 }
-
 /* adding handler and click events */
 
 const burger = document.querySelector(".burger");

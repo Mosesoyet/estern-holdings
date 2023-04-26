@@ -3,7 +3,7 @@
         "sys": {"id": "1"},
         "firstname": "Moses",
         "lastname": "Oyet",
-        "contact": {"email":"trickmaxillar@gmail.com", "tel": "0925940764/0980442504"},
+        "contact": {"email":"trickmaxillar@gmail.com", "tel": ["0925940764","0980442504"]},
         "image": "images/members/trick.jpg",
         "Payment": "Cash",
         "Position": "5"
@@ -12,16 +12,16 @@
         "sys": {"id": "2"},
         "firstname": "Stephen",
         "lastname": "Omal",
-        "contact": {"email":"okwerastephen06@g.com", "tel": "0927854807/0980386944"},
+        "contact": {"email":"okwerastephen06@gmail.com", "tel": ["0927854807","0980386944"]},
         "image": "images/members/stevo.jpg",
-        "Payment": "MoMo",
+        "Payment": ["MoMo", "Cash"],
         "Position": "2"
     },
     {
         "sys": {"id": "3"},
         "firstname": "Dennis",
         "lastname": "Onen",
-        "contact": {"email":"luoprince07@gmail.com", "tel": "0926007474/0980360438"},
+        "contact": {"email":"luoprince07@gmail.com", "tel": ["0926007474","0980360438"]},
         "image": "images/members/deno.jpg",
         "Payment": "Cash",
         "Position": "1"
@@ -30,7 +30,7 @@
         "sys": {"id": "4"},
         "firstname": "Joseph",
         "lastname": "Justin",
-        "contact": {"email":"josephjustintaban@gmail.com", "tel": "0922985558/0980361386"},
+        "contact": {"email":"josephjustintaban@gmail.com", "tel": ["0922985558","0980361386"]},
         "image": "images/members/lingken.jpg",
         "Payment": "Cash",
         "Position": "3"
@@ -39,9 +39,18 @@
         "sys": {"id": "5"},
         "firstname": "Gilbert",
         "lastname": "Otema",
-        "contact": {"email":"gilbertotema@fb.com", "tel": "0924440860"},
+        "contact": {"email":"gilbertotema@fb.com", "tel": ["0924440860"]},
         "image": "images/members/gilbert.jpg",
         "Payment": "MoMo",
         "Position": "4"
+    },
+    {
+        "sys": {"id": "6"},
+        "firstname": "Yanani",
+        "lastname": "Concy",
+        "contact": {"email":"Email to be added", "tel": ["0920681663","0980407668"]},
+        "image": "images/members/concy.jpg",
+        "Payment": ["MoMo","Cash"],
+        "Position": "6"
     }
 ]
